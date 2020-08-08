@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.Group?>
+
+<VBox fx:id="vBoxMiddle" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMiddle">
+    <children>
+        <Group fx:id="middleGroup" ></Group>
+    </children>
+</VBox>

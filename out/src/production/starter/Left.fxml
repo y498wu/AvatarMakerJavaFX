@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.TitledPane?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLeft">
+    <children>
+        <Accordion>
+            <panes>
+                <TitledPane fx:id="HairPane" text="Hair"></TitledPane>
+                <TitledPane fx:id="SkinPane" text="Skin"></TitledPane>
+                <TitledPane fx:id="BrowsPane" text="Eyebrows"></TitledPane>
+                <TitledPane fx:id="EyesPane" text="Eyes"></TitledPane>
+                <TitledPane fx:id="MouthPane" text="Mouth"></TitledPane>
+            </panes>
+        </Accordion>
+    </children>
+</VBox>
